@@ -1,12 +1,12 @@
 # AWS
 
-<h2>Creating lambda from cli</h2>
+# #Creating lambda from cli
 ```
 aws iam create-role `
   --role-name lambda-basic-execution-role `
   --assume-role-policy-document file://trust-policy.json
 ```
-<h3>execution policy </h3>
+# # execution policy 
 ```
 aws iam create-role `
   --role-name lambda-basic-execution-role `
