@@ -1,6 +1,6 @@
 # AWS
 
-# #Creating lambda from cli
+## Creating lambda from cli
 ```
 aws iam create-role `
   --role-name lambda-basic-execution-role `
