@@ -1,18 +1,22 @@
 # AWS
 
+Make sure to have aws configured before
+```
+aws configure
+```
 ## Creating lambda from cli
 ```
 aws iam create-role `
   --role-name lambda-basic-execution-role `
   --assume-role-policy-document file://trust-policy.json
 ```
-### execution policy 
+### Execution policy 
 ```
 aws iam create-role `
   --role-name lambda-basic-execution-role `
   --assume-role-policy-document file://trust-policy.json
 ```
-### deploy the lambda function
+### Deploy the lambda function
 ```
 aws lambda create-function `
   --function-name mockMongoLambda `
@@ -23,7 +27,7 @@ aws lambda create-function `
   --region ap-south-1
 
 ```
-###invoking the lambda 
+### Invoking the lambda 
 ```
 aws lambda invoke `
   --function-name mockMongoLambda `
