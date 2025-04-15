@@ -6,7 +6,7 @@ aws iam create-role `
   --role-name lambda-basic-execution-role `
   --assume-role-policy-document file://trust-policy.json
 ```
-# # execution policy 
+### execution policy 
 ```
 aws iam create-role `
   --role-name lambda-basic-execution-role `
