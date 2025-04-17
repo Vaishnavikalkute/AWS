@@ -1,4 +1,5 @@
 # AWS
+## Lambda
 
 Make sure to have aws configured before
 ```
@@ -36,3 +37,11 @@ aws lambda invoke `
   response.json
 
 ```
+
+## S3
+
+For aws s3 we use boto3 in python scipt
+
+- will create the client for the s3 first
+
+
